@@ -1,0 +1,19 @@
+{
+  "name": "hello-nodejs",
+  "version": "1.0.0",
+  "description": "first package using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PironSteve/hello-nodejs.git"
+  },
+  "author": "Piron Steve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PironSteve/hello-nodejs/issues"
+  },
+  "homepage": "https://github.com/PironSteve/hello-nodejs#readme"
+}
