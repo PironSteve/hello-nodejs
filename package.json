@@ -1,5 +1,5 @@
 {
-  "name": "hello-nodejs",
+  "name": "checkmail-cli",
   "version": "1.0.0",
   "description": "first package using nodejs",
   "main": "index.js",
@@ -8,12 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PironSteve/hello-nodejs.git"
+    "url": "git+https://github.com/PironSteve/nodejs-breachmailchecker-CLI.git"
   },
   "author": "Piron Steve",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PironSteve/hello-nodejs/issues"
+  "bin": {
+    "mailbreach": "./index.js"
   },
-  "homepage": "https://github.com/PironSteve/hello-nodejs#readme"
+  "bugs": {
+    "url": "https://github.com/PironSteve/nodejs-breachmailchecker-CLI/issues"
+  },
+  "homepage": "https://github.com/PironSteve/nodejs-breachmailchecker-CLI#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "email-validator": "^2.0.4",
+    "figlet": "^1.2.1",
+    "isemail": "^3.2.0",
+    "ora": "^3.0.0"
+  }
 }
