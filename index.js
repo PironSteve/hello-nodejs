@@ -42,7 +42,7 @@ if (validator.validate(`${args}`)==true) {
             }
         })
         spinner.stop();
-    }, 2000);
+    }, 1000);
 }else{
     console.log(chalk.bgRed(`\nEmail : ${args} is invalid !`))
 };
