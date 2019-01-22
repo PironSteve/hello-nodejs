@@ -1,6 +1,6 @@
 {
   "name": "@bedou/mailbreach",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "first package using nodejs",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,9 @@
     "isemail": "^3.2.0",
     "ora": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@bedou/mailbreach": "1.0.2"
+  },
   "keywords": [
     "cli",
     "mail",

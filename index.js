@@ -36,13 +36,15 @@ if (validator.validate(`${args}`)==true) {
                 console.log(chalk.yellow("Breach date:")+" "+chalk.blue.italic(breach.BreachDate));
                 console.log("--------------------------");
             })
+            console.log(chalk.yellow.italic("\nCoded by Steve 'Beda' Piron for BeCode.org\n"));
+            console.log(chalk.blue.italic("Github:")+" "+ chalk.italic("https://github.com/PironSteve\n"))
         })
         .catch(error => {
             if (error.response.status === 404) {
                 console.log(chalk.blue.italic(`GG ! pwned not found, ${args} is ok !\n`))
             }
         })
-        spinner.stop();
+        spinner.succeed("Loading done.");
     }, 1000);
 }else{
     console.log(chalk.bgRed(`\nEmail : ${args} is invalid !`))

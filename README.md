@@ -3,7 +3,7 @@
 
 1. **Install via npm:**
   ```
-	  npm i @bedou/mailbreach
+	  npm i -g @bedou/mailbreach
   ```
   
 2. **How to use Breach Mail Checker CLI:**
