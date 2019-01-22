@@ -14,11 +14,15 @@
 
 3. **Package:**
   
-	>-[`email-validator`](https://www.npmjs.com/package/email-validator)
-	>-[`axios`](https://www.npmjs.com/package/axios)
-	>-[`ora`](https://www.npmjs.com/package/ora)
-	>-[`chalk`](https://www.npmjs.com/package/chalk)
-	>-[`figlet`](https://www.npmjs.com/package/figlet)
+	>- [`email-validator`](https://www.npmjs.com/package/email-validator)
+    >
+    >- [`axios`](https://www.npmjs.com/package/axios)
+    >
+    >- [`ora`](https://www.npmjs.com/package/ora)
+    >
+    >- [`chalk`](https://www.npmjs.com/package/chalk)
+    >
+    >- [`figlet`](https://www.npmjs.com/package/figlet)
   
 
 4. **API:**
