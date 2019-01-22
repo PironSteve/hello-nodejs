@@ -33,7 +33,8 @@ if (validator.validate(`${args}`)==true) {
                 console.log(chalk.yellow("Breach name:")+" "+chalk.blue.italic(breach.Name));
                 console.log(chalk.yellow("Breach domain:")+" "+chalk.blue.italic(breach.Domain));
                 console.log(chalk.yellow("Breach description:")+" "+chalk.blue.italic(breach.Description));
-                console.log(chalk.yellow("Breach date:")+" "+chalk.blue.italic(breach.BreachDate)+"\n");
+                console.log(chalk.yellow("Breach date:")+" "+chalk.blue.italic(breach.BreachDate));
+                console.log("--------------------------");
             })
         })
         .catch(error => {
