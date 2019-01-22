@@ -26,5 +26,15 @@
     "figlet": "^1.2.1",
     "isemail": "^3.2.0",
     "ora": "^3.0.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "cli",
+    "mail",
+    "checker",
+    "mailchecker",
+    "nodejs",
+    "breach",
+    "security"
+  ]
 }
